@@ -1,1 +1,76 @@
-hello
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap-slider.css">
+    <link rel="stylesheet" href="static/frappe-gantt.css">
+    <script src="static/jquery.min.js"></script>
+    <script src="static/bootstrap.min.js"></script>
+    <script src="static/bootstrap-slider.js"></script>
+    <script src="static/frappe-gantt.js"></script>
+
+</head>
+
+<body>
+
+    <div id="main">
+        <canvas id="myCanvas" width="2033.33" height="990.66" style="border:1px solid #000000;">
+        </canvas>
+    </div>
+    
+    <div id="options">
+        <div id="explain">
+            <p>
+            Данная страничка предназначена для демонстрации результатов работы программы. 
+            Веб-сервис планируется позже.<br />
+            Обозначения на рисунке: 1) Фиолетовые круги -- порты, оранжевые -- промежуточные вершины; <br />
+            2) Цвет ребра (от самого легкого до тяжелого льда): зеленый < синий < желтый < красный. <br />
+            3) Ледоколы -- цветные квадраты, сверху в {} текущее состояние каравана. Остальные корабли -- голубые квадраты со своим номером внутри. <br />
+            В диаграмме ганта часто информация не влезает на отрезок, поэтому можно нажимать на отрезок и смотреть информацию в всплывающем окне.<br />
+            Первые строчки в диаграмме -- ледоколы, в {} у которых конвой, vel -- скорость в узлах, e_id -- индекс ребра. Дальше идут остальные корабли.
+        </p>
+        </div>
+    </div>
+
+    <div id="mainslider">
+        <div id="res"></div>
+        <div id="dateText"></div>
+            <div id="slider" data-slider-id='mainSlider' type="text" style="display:None">
+    
+            </div>
+            <div id="g">
+                <div id="t">
+                    <table >
+
+                    </table>
+                </div>
+                <div id="gan">
+                    <svg id="gantt" class="dark"></svg>
+                </div>
+                
+            </div>
+            
+    </div>
+
+
+    <img src="static/main_0.png" style="display:none"></img>
+    <img src="static/main_1.png" style="display:none"></img>
+    <img src="static/main_2.png" style="display:none"></img>
+    <img src="static/main_3.png" style="display:none"></img>
+    <img src="static/main_4.png" style="display:none"></img>
+    <img src="static/main_5.png" style="display:none"></img>
+    <img src="static/main_6.png" style="display:none"></img>
+    <img src="static/main_7.png" style="display:none"></img>
+    <img src="static/main_8.png" style="display:none"></img>
+    <img src="static/main_9.png" style="display:none"></img>
+    <img src="static/main_10.png" style="display:none"></img>
+    <img src="static/main_11.png" style="display:none"></img>
+    <img src="static/main_12.png" style="display:none"></img>
+    <img src="static/main_13.png" style="display:none"></img>
+    <script src="static/main.js"></script>
+</body>
+    
+</html>
+
